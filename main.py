@@ -9,13 +9,13 @@ st.markdown('In Jul 2020. OpenAI released the initial GPT-3 paper with the davin
 st.markdown('***GPT-3.5*** series is a series of models that was trained on a blend of text and code from before Q4 2021.')
  
 
-st.image("instr-tuning/路线.png", caption='GPT Model Evolutionary Tree', use_column_width='auto')
+st.image("instr-tuning/路线.png", caption='GPT Model Evolutionary Tree')
 
 st.header("Large Language Models Emergent Abilities")
 st.markdown('There are three important abilities that the initial GPT-3 exhibit: ***Language generation, World knowledge, In-context learning***')
 
 
-st.image("instr-tuning/能力.png", caption='GPT Model Abilities', use_column_width='auto')
+st.image("instr-tuning/能力.png", caption='GPT Model Abilities')
 
 st.subheader("Where do these abilities come from?")
 st.success('***Already be in the base model***: The ability to follow instruction and zero-shot generalization', icon="✅")
@@ -38,7 +38,7 @@ st.markdown('• ***Impartial responses***: 涉及多个实体利益的事件给
 st.markdown('• ***Rejecting improper questions***: 内容过滤器和由 RLHF 触发的模型自身能力的结合')
 st.markdown('• ***Rejecting questions outside its knowledge scope***: 使模型能够隐式地区分哪些问题在其知识范围内')
 
-st.image("instr-tuning/InstructGPT.png", caption='GPT Model Abilities', use_column_width='auto')
+st.image("instr-tuning/InstructGPT.png", caption='GPT Model Abilities')
 
 
 
